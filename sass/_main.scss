@@ -1,0 +1,151 @@
+#header{
+	background-color: $color;
+	color: $color__texto;
+	img{
+		height: 120px;
+		border-radius: 50%;
+	}
+
+	a{
+		font-size: 1rem;
+		margin-left: 15px;
+	}
+}
+
+//H2
+.titulo{
+	background-color: $color__titulo;
+	color: $color__h2;
+	text-align: center;
+}
+
+//Video
+video{
+	margin: 40px 70px;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+//Nosotros Texto
+.nosotros{
+	font-size: 1rem;
+    float:right;
+    height: 100%;
+    width: 40%;
+	margin-top: -350px;
+}
+
+//mixin h3 (productos y sevicios)
+@mixin h3 {
+	font-size: 20px;
+	background-color: rgba(246, 198, 248, 0.945);
+	color: rgb(152, 8, 248);
+	text-align: center;
+	
+}
+
+//Producto
+.producto{
+	img{
+		width: 350px;
+		height: 300px;
+	}
+
+	h3{
+		@include h3;
+	}
+}
+
+//Servicio
+.servicio{
+	img{
+		width: 350px;
+		height: 270px;
+	
+	}
+	
+
+	h3{
+		@include h3;
+	}
+}	
+
+
+//Contacto
+.formulario{
+	background-color: $color__titulo;
+	float: left;
+	width: 25%;
+	margin-left: 200px;
+	
+	input{
+		background-color: $color__input;
+		display: block;
+		margin: 5px;
+		width: 300px;
+		text-align: center;
+	}
+	
+	textarea{
+		align-items: center;
+		height: 250px;
+		width: 100%;
+	}
+}
+
+.spa{
+	img{
+		margin: 30px 100px;
+		height: 100%;
+		width: 45%;
+		float: right;
+		display: inline;
+	}
+}
+
+//footer
+.whatsapp{
+    height: 80px;
+    width: 80px;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+	z-index:2;
+
+	img{
+		height: 80px;
+		width: 80px;
+		z-index: 10;
+	}
+}
+
+footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: $color__footer;
+	font-family: $texto;
+
+	samp{
+		text-decoration: $samp;
+		font-family: $texto;
+	}
+	
+	img{
+		height: 60px;
+		padding: 5px;
+		margin: 8px;
+	}
+
+
+	h4{
+		font-size: 15px;
+		text-decoration: underline;
+		text-align: center;
+	}
+}
+
+
