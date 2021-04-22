@@ -1,19 +1,16 @@
 @media only screen and (max-width: 576px) {
     body{
         width: 100%;
-
-        .whatsapp{
-            display: none;
-        }
+        line-height: 1;
         //nosotros
         video{
-            width: 70%;
+            padding-right: 20px;
+            width: 90%;
         }
-        .nosotros{
-            float: none;
-            margin-top: 0;
-            width: 100%;
+        .nosotros p{
+            
             text-align: center;
+            width: 100%;
         }
         //productos
         img{
@@ -35,6 +32,11 @@
                 width: 55%;
             }
         }
+
+        //footer
+        .whatsapp{
+            display: none;
+        }
     }
 }
 
@@ -47,13 +49,13 @@
         }
         //nosotros
         video{
-            width: 70%;
+            padding-right: 20px;
+            width: 90%;
         }
-        .nosotros{
-            float: none;
-            margin-top: 0;
-            width: 100%;
+        .nosotros p{
+            
             text-align: center;
+            width: 100%;
         }
         //productos
         img{
@@ -86,15 +88,7 @@
             display: none;
         }
         //nosotros
-        video{
-            width: 70%;
-        }
-        .nosotros{
-            float: none;
-            margin-top: 0;
-            width: 100%;
-            text-align: center;
-        }
+        
         //productos
         img{
             justify-content: center;
@@ -129,15 +123,7 @@
             display: none;
         }
         //nosotros
-        video{
-            width: 70%;
-        }
-        .nosotros{
-            float: none;
-            margin-top: 0;
-            width: 100%;
-            text-align: center;
-        }
+        
         //productos
         img{
             justify-content: center;
