@@ -8,7 +8,6 @@
             width: 90%;
         }
         .nosotros p{
-            
             text-align: center;
             width: 100%;
         }
@@ -21,18 +20,19 @@
             justify-content: center;
         }
         //Contacto
-        .spa{
-            display: none;
-        }
         .formulario{
-            float:none;
-            width: 100%;
-            margin-left: 0px;
-            textarea{
-                width: 55%;
+            float: none;
+            width: 350px;
+            margin: 0;
+            .textarea{
+                width: 250px;
+                
             }
         }
-
+        .spa img{
+            display: none;
+        }
+        
         //footer
         .whatsapp{
             display: none;
@@ -66,17 +66,19 @@
             justify-content: center;
         }
         //Contacto
-        .spa{
-            display: none;
-        }
         .formulario{
-            float:none;
-            width: 100%;
-            margin-left: 0px;
-            textarea{
-                width: 55%;
+            float: none;
+            width: 350px;
+            margin: 0;
+            .textarea{
+                width: 250px;
+                
             }
         }
+        .spa img{
+            display: none;
+        }
+        
     }
 }
 
@@ -98,24 +100,18 @@
             justify-content: center;
         }
         //Contacto
-        .spa{
-            margin: -350px 100px;
-            height: 100%;
-            width: 45%;
-            float: right;
-            display: inline;
-            }
         .formulario{
-            width: 45%;
-            margin-left: 0px;
-            textarea{
-                width: 55%;
-            }
+            margin: 0;
+            width: 350px;
+        }
+        .spa{
+            width: 50%;
+            float: left;
         }
     }
 }
 
-@media only screen and (max-width: 1140px){
+@media only screen and (max-width: 1340px){
     body{
         width: 100%;
 
@@ -133,19 +129,13 @@
             justify-content: center;
         }
         //Contacto
-        .spa{
-            margin: -350px 100px;
-            height: 100%;
-            width: 45%;
-            float: right;
-            display: inline;
-            }
         .formulario{
-            width: 45%;
-            margin-left: 0px;
-            textarea{
-                width: 55%;
-            }
+            margin: 0;
+            width: 350px;
+        }
+        .spa{
+            width: 50%;
+            float: left;
         }
     }
 }
