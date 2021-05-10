@@ -11,14 +11,6 @@
             text-align: center;
             width: 100%;
         }
-        //productos
-        .producto img{
-            justify-content: center;
-        }
-        //servicios
-        .servicio img{
-            justify-content: center;
-        }
         //Contacto
         .formulario{
             float: none;
@@ -29,25 +21,35 @@
                 
             }
         }
+        //footer
         .spa img{
             display: none;
         }
-        
-        //footer
         .whatsapp{
             display: none;
         }
-
-        //footer
-        footer .icon{
-            margin: 0 5px;
-            samp{
-                height: 30px;
-                width: 30px;
+        
+        footer{
+            .dato{
+                h4{
+                    font-size: 0.5rem;
+                }
+                p{
+                    font-size: 0.5rem;
+                }
             }
-            i{
-                font-size: 15px;
-                line-height: 30px;
+            .redes .icon{
+                margin: 0 5px;
+
+                samp{
+                    height: 30px;
+                    width: 30px;
+                }
+
+                i{
+                    font-size: 15px;
+                    line-height: 30px;
+                }
             }
         }
     }
@@ -70,14 +72,7 @@
             text-align: center;
             width: 100%;
         }
-        //productos
-        img{
-            justify-content: center;
-        }
-        //servicios
-        img{
-            justify-content: center;
-        }
+        
         //Contacto
         .formulario{
             float: none;
@@ -93,16 +88,27 @@
             display: none;
         }
 
-        //footer
-        footer .icon{
-            margin: 0 5px;
-            samp{
-                height: 30px;
-                width: 30px;
+        footer{
+            .dato{
+                h4{
+                    font-size: 0.5rem;
+                }
+                p{
+                    font-size: 0.5rem;
+                }
             }
-            i{
-                font-size: 15px;
-                line-height: 30px;
+            .redes .icon{
+                margin: 0 5px;
+
+                samp{
+                    height: 30px;
+                    width: 30px;
+                }
+
+                i{
+                    font-size: 15px;
+                    line-height: 30px;
+                }
             }
         }
 
@@ -115,16 +121,6 @@
 
         .whatsapp{
             display: none;
-        }
-        //nosotros
-        
-        //productos
-        img{
-            justify-content: center;
-        }
-        //servicios
-        img{
-            justify-content: center;
         }
         //Contacto
         .formulario{
@@ -144,16 +140,6 @@
 
         .whatsapp{
             display: none;
-        }
-        //nosotros
-        
-        //productos
-        img{
-            justify-content: center;
-        }
-        //servicios
-        img{
-            justify-content: center;
         }
         //Contacto
         .formulario{
