@@ -2,6 +2,12 @@
     body{
         width: 100%;
         line-height: 1;
+
+        .inf{
+            margin-left: 0;
+            
+        }
+
         //nosotros
         video{
             padding-right: 20px;
@@ -58,6 +64,13 @@
 @media only screen and (max-width: 762px){
     body{
         width: 100%;
+
+        .inf{
+            margin-left: 0;
+            p{
+                width: 100%;
+            }
+        }
 
         .whatsapp{
             display: none;
@@ -119,6 +132,13 @@
     body{
         width: 100%;
 
+        .inf{
+            margin-left: 0;
+            p{
+                width: 100%;
+            }
+        }
+
         .whatsapp{
             display: none;
         }
@@ -137,6 +157,13 @@
 @media only screen and (max-width: 1340px){
     body{
         width: 100%;
+
+        .inf{
+            margin-left: 0;
+            p{
+                width: 100%;
+            }
+        }
 
         .whatsapp{
             display: none;
